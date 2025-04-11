@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "DM Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav span {
+  font-size: x-small;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: x-small;
+}
+.box {
+  width: 500px;
+  height: 30px;
+  align-items: center;
+  padding: 5px 5px;
+  border: 1px solid;
+  background-color: white;
+}
+.box > input {
+  border: none;
+}
+nav li button {
+  padding: 2px 2px;
+  border-color: 1px solid;
+}
+header nav img {
+  margin-left: 50px;
+}
+#signup {
+  background-color: black;
+  color: white;
+}
+main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+main section img {
+  height: 100vh;
+  width: 500px;
+}
+main section h1 {
+  margin-top: 40px;
+  margin-left: 150px;
+}
+main section div {
+  margin-top: 10px;
+}
+#passwordsec {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+main section div button {
+  padding: 2px 6px;
+  color: white;
+  background-color: black;
+  font-size: xx-small;
+  border-radius: 999px;
+}
+#linesection {
+  position: relative;
+  margin: 50px auto;
+  text-align: center;
+  font-size: xx-small;
+}
+#linesection::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: black;
+  left: 0;
+  width: 250px;
+  height: 2px;
+  top: 50%;
+  z-index: 99;
+}
+#linesection::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: black;
+  right: 0;
+  width: 250px;
+  height: 2px;
+  top: 50%;
+  z-index: 99;
+}
+#iconsec {
+  display: grid;
+  grid-template-columns: 31.3% 31.3% 31.3%;
+  align-items: center;
+  font-size: x-small;
+}
+#Facebookspan {
+  color: blue;
+}
+.fbbox {
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  padding: 5px 5px;
+  border: 1px solid;
+  background-color: azure;
+  border: none;
+}
+#googlespan {
+  color: red;
+}
+.gobox {
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  padding: 5px 5px;
+  border: 1px solid;
+  background-color: azure;
+  border: none;
+}
+#Microsoftspan {
+  color: black;
+}
+.mibox {
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  padding: 5px 5px;
+  border: 1px solid;
+  background-color: azure;
+  border: none;
+}
+
+/* media query */
+
+@media (max-width: 700px) {
+  nav {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  margin: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "DM Sans", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: x-small;
+}
+header nav {
+  margin-left: 70px;
+}
+nav span {
+  font-size: small;
+}
+.box {
+  width: 500px;
+  height: 30px;
+  align-items: center;
+  padding: 5px 5px;
+  border: 1px solid;
+  background-color: white;
+}
+.box > input {
+  border: none;
+}
+nav li button {
+  padding: 2px 2px;
+  border-color: 1px solid;
+}
+#signup {
+  background-color: black;
+  color: white;
+}
+main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+main section img {
+  height: 100vh;
+  width: 400px;
+  margin-left: 220px;
+}
+#sec1 {
+  margin-left: 100px;
+  margin-top: 120px;
+}
+
+main section h1 {
+  margin-left: 120px;
+}
+
+main section div {
+  margin-top: 20px;
+}
+main section div button {
+  padding: 5px 10px;
+  color: white;
+  background-color: black;
+  font-size: xx-small;
+  border-radius: 10px;
+}
+
+#linesection {
+  position: relative;
+  margin: 50px auto;
+  text-align: center;
+  font-size: xx-small;
+}
+#linesection::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: black;
+  left: 0;
+  width: 200px;
+  height: 2px;
+  top: 50%;
+  z-index: 99;
+}
+#linesection::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: black;
+  right: 0;
+  width: 200px;
+  height: 2px;
+  top: 50%;
+  z-index: 99;
+}
+#iconsec {
+  display: grid;
+  grid-template-columns: 31.3% 31.3% 31.3%;
+  align-items: center;
+  font-size: x-small;
+}
+#Facebookspan {
+  color: blue;
+}
+.fbbox {
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  padding: 5px 5px;
+  border: 1px solid;
+  background-color: azure;
+  border: none;
+}
+#googlespan {
+  color: red;
+}
+.gobox {
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  padding: 5px 5px;
+  border: 1px solid;
+  background-color: azure;
+  border: none;
+}
+#Microsoftspan {
+  color: black;
+}
+.mibox {
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  padding: 5px 5px;
+  border: 1px solid;
+  background-color: azure;
+  border: none;
+}
+
+/* media query */
+
+@media only screen and (width: 300px) {
+  .wrapper-main {
+    width: 100%;
+  }
+}
+@media only screen and (width: 768px) {
+  .wrapper-main {
+    width: 100%;
+  }
+}
+@media only screen and (width: 992px) {
+  .wrapper-main {
+    width: 100%;
+  }
+}
+@media only screen and (width: 1200px) {
+  .wrapper-main {
+    width: 100%;
+  }
+}
